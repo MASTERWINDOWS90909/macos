@@ -2,7 +2,9 @@
   "name": "macOS 14 (Sonoma)",
   "service": "macos",
   "containerEnv": {
-    "VERSION": "14"
+    "VERSION": "14",
+    "WIDTH": "1680",
+    "HEIGHT": "1050"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
