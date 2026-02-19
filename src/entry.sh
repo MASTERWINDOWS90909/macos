@@ -2,6 +2,8 @@
 set -Eeuo pipefail
 
 : "${APP:="macOS"}"
+: "${WIDTH:="1680"}"
+: "${HEIGHT:="1050"}"
 : "${VGA:="vmware"}"
 : "${DISK_TYPE:="blk"}"
 : "${PLATFORM:="x64"}"
