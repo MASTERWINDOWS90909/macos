@@ -6,6 +6,9 @@ services:
       VERSION: "14"
       DISK_SIZE: "256G"
       RAM_SIZE: "60G"
+      CPU_CORES: "16"
+      GPU: "Y"
+      VGA: "virtio-vga"
     devices:
       - /dev/kvm
       - /dev/net/tun
